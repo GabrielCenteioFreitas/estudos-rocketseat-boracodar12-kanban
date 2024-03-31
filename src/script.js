@@ -7,7 +7,9 @@ fetch('./src/cards.json')
       const template_card = document.querySelector("template#cards").content.firstElementChild.cloneNode(true);
       
       template_card.querySelector("h3").textContent = card.title;
+      template_card.querySelector("h3").title = card.title;
       template_card.querySelector("p").textContent = card.description;
+      template_card.querySelector("p").title = card.description;
       for (const tag of card.tags) {
         const template_tag = template_card.querySelector(".tag").content.firstElementChild.cloneNode(true);
         template_tag.textContent = tag;
@@ -17,5 +19,5 @@ fetch('./src/cards.json')
       document.querySelector(`#${board}`).appendChild(template_card);
     }
   }
-  
+
 })

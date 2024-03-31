@@ -7,7 +7,7 @@
     },
     "card_2": {
       "title": "Manter a ofensiva 🔥",
-      "description": "Manter minha atividade na plataforma da Rocketseat para não perder a ofensiva",
+      "description": "Manter minha atividade na plataforma da Rocketseat para não perder a ofensiva.",
       "tags": ["rocketseat"]
     },
     "card_3": {
@@ -24,12 +24,12 @@
   "doing": {
     "card_1": {
       "title": "Conferir o novo desafio 🚀 ",
-      "description": "Conferir o novo projeto do #boraCodar para fazê-lo da melhor maneira possível",
+      "description": "Conferir o novo projeto do #boraCodar para fazê-lo da melhor maneira possível.",
       "tags": ["rocketseat", "desafio"]
     },
     "card_2": {
       "title": "Ser incrível 😎",
-      "description": "Sempre me lembrar de manter minha autenticidade e espalhar amor",
+      "description": "Sempre me lembrar de manter minha autenticidade e espalhar amor.",
       "tags": ["autocuidado"]
     }
   },
