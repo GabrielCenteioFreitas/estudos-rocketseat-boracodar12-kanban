@@ -20,4 +20,44 @@ fetch('./src/cards.json')
     }
   }
 
+  // Drag event
+  const drag_cards = document.querySelectorAll(".card");
+  const dropzones = document.querySelectorAll("section");
+  
+  drag_cards.forEach(drag_card => {
+    drag_card.addEventListener("dragstart", dragstart);
+    drag_card.addEventListener("dragend", dragend);
+  })
+  
+  function dragstart() {
+    dropzones.forEach(dropzone => {dropzone.classList.add("bg-violet-100")})
+
+    this.classList.add("opacity-50");
+  }
+  function dragend() {
+    dropzones.forEach(dropzone => {dropzone.classList.remove("bg-violet-100")})
+
+    this.classList.remove("opacity-50");
+  }
+  
+  dropzones.forEach(dropzone => {
+    dropzone.addEventListener("dragover", dragover)
+    dropzone.addEventListener("dragleave", dragleave)
+    dropzone.addEventListener("drop", drop)
+  })
+  function dragover(event) {
+    this.classList.add("bg-violet-200");
+
+    const cardBeingDragged = document.querySelector(".opacity-50");
+    this.appendChild(cardBeingDragged);
+
+    event.preventDefault();
+    event.dataTransfer.dropEffect = "move";
+  }
+  function dragleave() {
+    this.classList.remove("bg-violet-200");    
+  }
+  function drop() {
+    this.classList.remove("bg-violet-200");    
+  }
 })
