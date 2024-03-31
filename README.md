@@ -35,7 +35,7 @@
 <br>
 
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias<a id="tecnologias"></a>
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -46,13 +46,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Figma
 
 
-## 💻 Projeto
+## 💻 Projeto<a id="projeto"></a>
 
 Projeto de um Kanban desenvolvido a partir do Desafio 12 do evento "BoraCodar" da Rocketseat com o objetivo de treinar e aprimorar habilidades.
 
 Caso queira ver todos os desafios do evento clique [aqui](https://github.com/GabrielCenteioFreitas/estudos-rocketseat-boracodar).
 
-## ⭐ Extras
+## ⭐ Extras<a id="extras"></a>
 
 Uma lista de funcionalidades extras que eu adicionei ao projeto:
 
@@ -61,6 +61,6 @@ Uma lista de funcionalidades extras que eu adicionei ao projeto:
 - Limite máximo de 1 linha para o título dos cards e de 3 linhas para a descrição dos cards
 - Animações de hover
 
-## 🔖 Layout
+## 🔖 Layout<a id="layout"></a>
 
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1220368226816658013).
