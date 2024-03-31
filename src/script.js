@@ -22,7 +22,7 @@ fetch('./src/cards.json')
 
   // Drag event
   const drag_cards = document.querySelectorAll(".card");
-  const dropzones = document.querySelectorAll("section");
+  const dropzones = document.querySelectorAll(".cards-container");
   
   drag_cards.forEach(drag_card => {
     drag_card.addEventListener("dragstart", dragstart);
@@ -61,3 +61,23 @@ fetch('./src/cards.json')
     this.classList.remove("bg-violet-200");    
   }
 })
+
+// Menu mobile
+function openMenu() {
+
+  if (window.outerWidth < 1024) {
+    if (!document.querySelector("aside ul li p").classList.contains("block")) {
+      document.querySelector("aside").classList.add("absolute", "z-1");
+      document.querySelectorAll("aside ul li p").forEach(item => {
+        item.classList.add("block");
+        item.classList.remove("hidden");
+      })
+    } else {
+      document.querySelector("aside").classList.remove("absolute", "z-1");
+      document.querySelectorAll("aside ul li p").forEach(item => {
+        item.classList.remove("block");
+        item.classList.add("hidden");
+      })
+    }
+  }
+}
