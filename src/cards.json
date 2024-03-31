@@ -1,0 +1,53 @@
+{
+  "todo": {
+    "card_1": {
+      "title": "#boraCodar um Kanban 🧑‍💻",
+      "description": "Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.",
+      "tags": ["rocketseat", "desafio"]
+    },
+    "card_2": {
+      "title": "Manter a ofensiva 🔥",
+      "description": "Manter minha atividade na plataforma da Rocketseat para não perder a ofensiva",
+      "tags": ["rocketseat"]
+    },
+    "card_3": {
+      "title": "Almoçar 🥗",
+      "description": "Me alimentar, aproveitando um momento de descanso para recarregar minhas energias durante o almoço.",
+      "tags": ["autocuidado"]
+    },
+    "card_4": {
+      "title": "Ler livro 📚",
+      "description": "Preciso ler o Livro de Matemática da página 79 até a 119 e fazer os exercícios da página 120.",
+      "tags": ["leitura", "exercícios"]
+    }
+  },
+  "doing": {
+    "card_1": {
+      "title": "Conferir o novo desafio 🚀 ",
+      "description": "Conferir o novo projeto do #boraCodar para fazê-lo da melhor maneira possível",
+      "tags": ["rocketseat", "desafio"]
+    },
+    "card_2": {
+      "title": "Ser incrível 😎",
+      "description": "Sempre me lembrar de manter minha autenticidade e espalhar amor",
+      "tags": ["autocuidado"]
+    }
+  },
+  "done": {
+    "card_1": {
+      "title": "#boraCodar uma página de login 🧑‍💻",
+      "description": "Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.",
+      "tags": ["rocketseat", "desafio"]
+    },
+    "card_2": {
+      "title": "#boraCodar uma página de clima 🧑‍💻",
+      "description": "Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.",
+      "tags": ["rocketseat", "desafio"]
+    },
+    "card_3": {
+      "title": "#boraCodar um conversor 🧑‍💻",
+      "description": "Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.",
+      "tags": ["rocketseat", "desafio"]
+    }
+  }
+}
